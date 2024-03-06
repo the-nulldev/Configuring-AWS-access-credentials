@@ -1,6 +1,6 @@
-# all commands are run locally and the results are checked locally
-# no data is sent to the Hyperskill server
-# the tests are run in the JetBrains IDE just like any other CLI commands would be run in the terminal
+# tests use the AWS SDK for Python (boto3) to run AWS commands locally
+# and check if they run successfully to determine if the tasks were completed correctly
+# the tests will pass if the commands run successfully and fail if they do not
 
 from hstest import StageTest, TestedProgram, CheckResult, dynamic_test
 from boto3 import Session

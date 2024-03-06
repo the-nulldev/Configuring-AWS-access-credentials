@@ -2,8 +2,8 @@
 # and check if they run successfully to determine if the tasks were completed correctly
 # the tests will pass if the commands run successfully and fail if they do not
 
-from hstest import StageTest, TestedProgram, CheckResult, dynamic_test
 from boto3 import Session
+from hstest import StageTest, CheckResult, dynamic_test
 
 
 # the function below checks if AWS credentials are configured on the machine

@@ -1,0 +1,2 @@
+https://github.com/hyperskill/hs-test-python/archive/release.tar.gz
+boto3==1.34.32
